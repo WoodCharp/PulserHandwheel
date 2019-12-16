@@ -1,9 +1,9 @@
 const byte A = 2;
 const byte B = 3;
 int pulserSteps = 0;
-int dir;
+volatile int dir;
 
-bool aRead = false, bRead = false;
+volatile bool aRead = false, bRead = false;
 
 void setup() {
   pinMode(A, INPUT_PULLUP);
