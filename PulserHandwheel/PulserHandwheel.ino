@@ -1,7 +1,5 @@
 const byte A = 2;
-volatile byte A_State;
 const byte B = 3;
-volatile byte B_State;
 int pulserSteps = 0;
 int dir;
 
